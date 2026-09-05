@@ -20,7 +20,7 @@ Welcome to my portfolio! 🚀 Here, I showcase a collection of my works and give
 1. **Clone the Repository:**
 
    ```
-   https://github.com/jcblanc2/Portfolio.git
+   git clone https://github.com/rajsingh1301/Portfolio.git
    ```
 
 2. **Install Dependencies:**
