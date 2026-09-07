@@ -34,6 +34,7 @@ export const projects = [
         title: 'Codoro',
         image: codoro,
         linkGithub: 'https://github.com/rajsingh1301/Codoro',
+        linkOnline: 'https://codoro.vercel.app',
         description: 'A live-coding platform with real-time streaming and AI coding assistants, built on Next.js and AWS (IVS, Bedrock, DynamoDB) with Clerk auth.',
         techStack: ['Next.js', 'AWS IVS', 'AWS Bedrock', 'DynamoDB', 'Clerk']
     },
@@ -41,6 +42,7 @@ export const projects = [
         title: 'CortexOps',
         image: cortexops,
         linkGithub: 'https://github.com/rajsingh1301/CortexOps',
+        linkOnline: 'https://cortexops-dashboard.onrender.com/',
         description: 'An AI-assisted ops agent for CockroachDB that detects anomalies and proposes human-approved remediations, backed by a vector-based decision memory.',
         techStack: ['Go', 'React', 'AWS Bedrock']
     },
