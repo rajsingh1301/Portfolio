@@ -9,6 +9,9 @@ import a1 from "../assets/images/a1.webp";
 import a2 from "../assets/images/a2.webp";
 import a4 from "../assets/images/a4.webp";
 import a5 from "../assets/images/a5.webp";
+import codoro from "../assets/images/codoro.png";
+import cortexops from "../assets/images/cortexops.png";
+import filedock from "../assets/images/filedock.png";
 
 
 export const headlines = [
@@ -27,6 +30,27 @@ export const fixedNavItems = [
 ]
 
 export const projects = [
+    {
+        title: 'Codoro',
+        image: codoro,
+        linkGithub: 'https://github.com/rajsingh1301/Codoro',
+        description: 'A live-coding platform with real-time streaming and AI coding assistants, built on Next.js and AWS (IVS, Bedrock, DynamoDB) with Clerk auth.',
+        techStack: ['Next.js', 'AWS IVS', 'AWS Bedrock', 'DynamoDB', 'Clerk']
+    },
+    {
+        title: 'CortexOps',
+        image: cortexops,
+        linkGithub: 'https://github.com/rajsingh1301/CortexOps',
+        description: 'An AI-assisted ops agent for CockroachDB that detects anomalies and proposes human-approved remediations, backed by a vector-based decision memory.',
+        techStack: ['Go', 'React', 'AWS Bedrock']
+    },
+    {
+        title: 'FileDock',
+        image: filedock,
+        linkGithub: 'https://github.com/rajsingh1301/FileDock',
+        description: 'A cloud file storage and sharing platform with OTP authentication and drag-and-drop uploads, built with Next.js and Appwrite.',
+        techStack: ['Next.js', 'Appwrite', 'TypeScript']
+    },
     {
         title: 'Foodico',
         image:foodico,
