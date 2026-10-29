@@ -12,6 +12,7 @@ import a5 from "../assets/images/a5.webp";
 import codoro from "../assets/images/codoro.png";
 import cortexops from "../assets/images/cortexops.png";
 import filedock from "../assets/images/filedock.png";
+import ecoscan from "../assets/images/ecoscan.png";
 
 
 export const headlines = [
@@ -45,6 +46,14 @@ export const projects = [
         linkOnline: 'https://cortexops-dashboard.onrender.com/',
         description: 'An AI-assisted ops agent for CockroachDB that detects anomalies and proposes human-approved remediations, backed by a vector-based decision memory.',
         techStack: ['Go', 'React', 'AWS Bedrock']
+    },
+    {
+        title: 'EcoScan',
+        image: ecoscan,
+        linkGithub: 'https://github.com/rajsingh1301/ecoscan',
+        linkOnline: 'https://ecoscan-iota-rouge.vercel.app',
+        description: 'An AI-powered waste sorting assistant built for NextStep Hacks 2026 that identifies items from your camera and gives location-aware recycle, compost or trash guidance.',
+        techStack: ['Next.js', 'Gemini', 'Supabase', 'Tailwind CSS']
     },
     {
         title: 'FileDock',
